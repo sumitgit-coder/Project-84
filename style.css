@@ -20,8 +20,8 @@
     margin-left: 110px;
     margin-top: -5px;
     border-radius: 50%;
-    -webkit-animation: loader 1s ease alternate infinite;
-    animation: loader 1s ease alternate infinite;
+    -webkit-animation: loader 0.4s ease alternate infinite;
+    animation: loader 0.4s ease alternate infinite;
 }
 
 @-webkit-keyframes loader {
@@ -62,8 +62,8 @@
 
 .loader-line .line1 {
     left: 0px;
-    -webkit-animation: line1-grow 1s ease alternate-reverse infinite;
-    animation: line1-grow 1s ease alternate-reverse infinite;
+    -webkit-animation: line1-grow 0.4s ease alternate-reverse infinite;
+    animation: line1-grow 0.4s ease alternate-reverse infinite;
 }
 
 @-webkit-keyframes line1-grow {
@@ -86,8 +86,8 @@
 
 .loader-line .line2 {
     left: 20px;
-    -webkit-animation: line2-grow 1s 0.25s ease alternate-reverse infinite;
-    animation: line2-grow 1s 0.25s ease alternate-reverse infinite;
+    -webkit-animation: line2-grow 0.4s 0.1s ease alternate-reverse infinite;
+    animation: line2-grow 0.4s 0.1s ease alternate-reverse infinite;
 }
 
 @-webkit-keyframes line2-grow {
@@ -110,8 +110,8 @@
 
 .loader-line .line3 {
     left: 40px;
-    -webkit-animation: line3-grow 1s 0.5s ease alternate-reverse infinite;
-    animation: line3-grow 1s 0.5s ease alternate-reverse infinite;
+    -webkit-animation: line3-grow 0.4s 0.2s ease alternate-reverse infinite;
+    animation: line3-grow 0.4s 0.2s ease alternate-reverse infinite;
 }
 
 @-webkit-keyframes line3-grow {
@@ -134,8 +134,8 @@
 
 .loader-line .line4 {
     left: 60px;
-    -webkit-animation: line4-grow 1s 0.75s ease alternate-reverse infinite;
-    animation: line4-grow 1s 0.75s ease alternate-reverse infinite;
+    -webkit-animation: line4-grow 0.4s 0.3s ease alternate-reverse infinite;
+    animation: line4-grow 0.4s 0.3s ease alternate-reverse infinite;
 }
 
 @-webkit-keyframes line4-grow {
@@ -158,8 +158,8 @@
 
 .loader-line .line5 {
     left: 80px;
-    -webkit-animation: line5-grow 1s 1s ease alternate-reverse infinite;
-    animation: line5-grow 1s 1s ease alternate-reverse infinite;
+    -webkit-animation: line5-grow 0.4s 0.4s ease alternate-reverse infinite;
+    animation: line5-grow 0.4s 0.4s ease alternate-reverse infinite;
 }
 
 @-webkit-keyframes line5-grow {
