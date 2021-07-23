@@ -1,0 +1,93 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+} 
+ 
+#boxes .window {
+  position:fixed;
+  left:0;
+  top: 35px !important;
+  width:440px;
+  left: 19% !important;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+  width: 900px;
+  height:auto;
+  padding: 10px 10px 10px 10px;
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+.maintext{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+
+#lorem{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12pt;
+	text-align: left;
+}
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
+/* Preloader */
+
+#preloader {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 999999999 !important;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#status {
+  width: 600px !important;
+  height: 850px !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/preloader-event.jpg);
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+#preloader span{
+  right: 51%;
+  top: 0;
+  transform: translateX(250px) !important;
+  /*transform: translateY(50px) !important;*/
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  cursor: pointer !important;
+}
